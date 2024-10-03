@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 970px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+}
+
+.flex {
+    background-image: url("./images/bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 71px;
+
+
+}
+
+
+
+.hero__title {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5.71px;
+}
+
+
+.award {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.scroll {
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    margin-left: 40px;
+    color: rgb(72, 85, 91);
+    font-size: 12px;
+    letter-spacing: 1.09px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.blue {
+    color: rgb(0, 164, 229);
+}
+
+hr {
+    color: rgb(255, 255, 255);
+}
+
+.story {
+    padding: 57px 0 117px;
+}
+
+.story__title {
+    color: rgb(72, 85, 91);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.31px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 92px;
+}
+
+.story__wrapper {
+    display: flex;
+}
+
+.story__left {
+    width: 50%;
+
+}
+
+.story__right {
+    width: 50%;
+}
+
+.story__desc-bold {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    max-width: 395px;
+}
+
+.story__desc-bold span {
+    color: #16ACE8;
+}
+
+.story__desc-light {
+    color: rgb(72, 85, 91);
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+    max-width: 405px;
+}
+
+.story__right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story__plan {
+    background-image: url("./images/plan.png");
+}
+
+.story__manage {
+    background-image: url("./images/manage.png");
+}
+
+.story__build {
+    background-image: url("./images/build.png");
+}
+
+.story__card {
+    width: 30.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+}
+
+.story__card p {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.19px;
+    font-weight: 700;
+}
+
+
+
+/* capabilites */
+.capabilities {
+    padding-bottom: 78px;
+}
+
+.capabilities__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.capabilities__flex {
+    display: flex;
+}
+
+.capabilities__desc {
+    max-width: 405px;
+    color: rgb(72, 85, 91);
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+}
+
+.capabilities__title {
+    color: rgb(72, 85, 91);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.31px;
+}
+
+.capabilities__btn {
+    background: rgb(0, 164, 229);
+    display: block;
+    width: 150px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* capabilites */
+
+
+
+
+
+
+
+/* project  */
+.project {
+    padding-bottom: 115px;
+}
+
+.project__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.project__card {
+    width: 31.3%;
+    border: 1px solid rgb(230, 230, 230);
+    background: rgb(255, 255, 255);
+    padding: 38px 10px 38px 23px;
+}
+
+
+.project__title {
+    color: rgb(72, 85, 91);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.43px;
+    margin: 25px 0 13px;
+
+}
+
+.project__desc {
+    color: rgb(72, 85, 91);
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+}
+
+.touch {
+    background-image: url(./images/getintouch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 499px;
+
+}
+
+.touch__wrapper {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+    max-width: 350px;
+}
+
+.touch__title {
+    margin-bottom: 35px; 
+}
+
+
+
+
+
+/* project  */
